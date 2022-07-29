@@ -1,6 +1,4 @@
-/*  colors:
-    yellow: #ffbe00
-    navy #192b37 */
+
 *{
     padding: 0;
     margin: 0;
@@ -159,7 +157,7 @@ p:last-child {
 .text-right     { text-align: right; }
 .text-center    { text-align: center; }
 
-.featured-text {color: #ffbe00;}
+.featured-text {color: var(--featured-text);}
 .white-text {color: #ffffff}
 
 .small-text {font-size: 1.5rem;}
